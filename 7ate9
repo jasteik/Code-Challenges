@@ -1,0 +1,13 @@
+# Write a function that removes every lone 9 that is inbetween 7's
+#ex: 79712312 -> 7712312 or 79797 -> 777
+
+def sevenAte9(str_):
+    for letter in (str_):
+        if '797':
+            str_=str_.replace('797', ('77'))
+    return str_
+    print(str_)
+
+sevenAte9(79712312)
+
+
